@@ -20,9 +20,11 @@
 	background-color: #0000FF;
 }
 
-.background {
-  background-color: #0000FF;
-}
+.base{
+  background-color:#a08282;
+  margin:auto;
+  text-align: center
+  }
 
 .bcc:hover{
     background-color: darkseagreen;
@@ -30,17 +32,17 @@
 
 .button {
   font-weight: 700;
-  color: blue; 
+  color: dodgerblue ; 
   text-decoration: none;
   padding:20px;
   margin: 7px;
   border-radius: 20px;
-  background: rgb(255, 0, 170);
-  box-shadow: 0 -3px rgb(116, 33, 91) inset;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 -3px rgb(44, 62, 233) inset;
   transition: 0.2s;
 } 
-.button:hover { background: rgb(116, 33, 91); }
+.button:hover { background: rgb(41, 50, 97); }
 .button:active {
-  background: rgb(116, 33, 91);
-  box-shadow: 0 3px rgb(116, 33, 91) inset;
+  background: rgb(56, 56, 56);
+  box-shadow: 0 3px rgb(53, 53, 53) inset;
 }
